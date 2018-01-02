@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import queryString from 'query-string';
-import ReactAudioPlayer from 'react-audio-player';
 
 import {Card, CardMedia, CardTitle} from 'material-ui/Card';
 

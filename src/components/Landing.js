@@ -24,7 +24,7 @@ class Landing extends Component {
         var params = {
             client_id: '898ce043624a4b3fa215a8819f8db66f',
             response_type: 'token',
-            redirect_uri: 'http://spotify-test-bkitano.c9users.io/#/callback',
+            redirect_uri: 'http://subspot-bkitano.c9users.io/#/callback',
             state: stateKey,
             scope: 'user-top-read'
         }
