@@ -57,9 +57,11 @@ class Dashboard extends Component {
         var tokens = queryString.parse(tokenString);
         
         if( tokens !== null && 
-        localStorage.state === tokens.state /* && 
+        localStorage.getItem('state') === tokens.state /* && 
         parseInt(localStorage.getItem('token_exp')) > Date.now() */ ) {
             localStorage.setItem('token', tokens.access_token);
+            
+            console.log(tokens.access_token);
         
             // Working with the spotify api
             
